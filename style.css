@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header-image {
+    background-image: url('path/to/your-header-image.jpg');
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header-image h1 {
+    font-size: 2.5em;
+}
+
+.subtitle {
+    font-size: 1.2em;
+}
+
+.gif-section img {
+    display: block;
+    margin: 0 auto;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.left-image {
+    flex-direction: row;
+}
+
+.right-image {
+    flex-direction: row-reverse;
+}
+
+.content-section img {
+    width: 50%;
+    height: auto;
+}
+
+.text-content h2 {
+    color: #333;
+}
+
+.big-image img {
+    width: 100%;
+    display: block;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Example for changing font and color */
+body {
+    font-family: 'Georgia', serif; /* Change your font here */
+}
+
+.header-image, .footer {
+    color: #ffcc00; /* Change your text color here */
+}
