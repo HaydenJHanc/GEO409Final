@@ -3,33 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cool Website</title>
+    <title>GEO 409 Webpage</title>
     <style>
-        body {
-    font-family: Arial, sans-serif;
+    
+body 
+{
+    font-family: 'Gill Sans', sans-serif;
+    background-color: #282829;
+    color: #d2d0d0
 }
 
-.header-image {
-    background-image: url('path/to/your-header-image.jpg');
-    color: white;
+.header-image 
+{
+    background-color:#4e4d4d;
+    color: rgb(210, 202, 202);
     text-align: center;
-    padding: 50px 0;
+    padding: 10px;
 }
 
-.header-image h1 {
+.header-image h1 
+{
     font-size: 2.5em;
 }
 
-.subtitle {
+.subtitle 
+{
     font-size: 1.2em;
 }
 
-.gif-section img {
-    display: block;
-    margin: 0 auto;
-}
-
-.content-section {
+.content-section 
+{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,79 +40,97 @@
     padding: 20px;
 }
 
-.left-image {
+.left-image 
+{
     flex-direction: row;
 }
 
-.right-image {
+.right-image 
+{
     flex-direction: row-reverse;
 }
 
-.content-section img {
+.content-section img 
+{
     width: 50%;
     height: auto;
 }
 
-.text-content h2 {
-    color: #333;
+.text-content h2 
+{
+    color: #d2d0d0;
 }
 
-.big-image img {
+.big-image img 
+{
     width: 100%;
-    display: block;
+    display:block;
+    align-items:center;
+    padding: 0px;
 }
 
-.footer {
-    background-color: black;
-    color: white;
+.footer 
+{
+    background-color: rgb(228, 222, 222);
+    color: rgb(33, 33, 33);
     text-align: center;
     padding: 20px;
 }
 
-/* Example for changing font and color */
-body {
-    font-family: 'Georgia', serif; /* Change your font here */
+.header-image
+{
+    color: #181818
 }
+</style>
 
-.header-image, .footer {
-    color: #ffcc00; /* Change your text color here */
-}
-    </style>
 </head>
 <body>
 
+<iframe src="http://potree.org/potree/examples/viewer.html" width="1600" height="900"></iframe>
 
-<div class="header-image">
-    <h1>Title Goes Here</h1>
-    <p class="subtitle">Subtitle Goes Here</p>
+<h1>Explore LiDAR Point Cloud</h1>
+
+<div class="big-image">
+    <img src="IMG_6599.jpg" alt="Big Image Description">
 </div>
 
-<div class="gif-section">
-    <img src="path/to/your-gif.gif" alt="Your GIF">
-</div>
+<h4>LiDAR point cloud renderer made by <a href="https://github.com/potree/potree/">potree.org</a></h4>
 
 <div class="content-section left-image">
-    <img src="path/to/your-image.jpg" alt="Description of Image">
+    <img src="WolfCreekDam.gif" alt="Description of Image">
     <div class="text-content">
         <h2>Section Title</h2>
         <p>Description or content goes here.</p>
     </div>
 </div>
 
-<div class="content-section right-image">
-    <div class="text-content">
-        <h2>Another Section Title</h2>
-        <p>More description or content goes here.</p>
-    </div>
-    <img src="path/to/another-image.jpg" alt="Description of Image">
-</div>
+<h1>Lake Cumberland Height and US Route 127</h1>
 
 <div class="big-image">
-    <img src="path/to/big-image.jpg" alt="Big Image Description">
+    <img src="IMG_6599.jpg" alt="Big Image Description">
 </div>
 
+<h4><a href="url">Download PDF</a></h4>
+
+<div class="content-section right-image">
+    <img src="IMG_6599.jpg" alt="Description of Image">
+    <div class="text-content">
+        <h2>Another Title</h2>
+        <p>More description or content goes here.</p>
+    </div>
+</div>
+
+<h1>Kendall Recreation Area</h1>
+
+<div class="big-image">
+    <img src="IMG_6599.jpg" alt="Big Image Description">
+</div>
+
+<h4><a href="url">Download PDF</a></h4>
+
 <div class="footer">
-    <p>Footer text goes here.</p>
+    <p>Made by Hayden Hancock for GEO 409 with Boyd Shearer at the University of Kentucky</p>
+    <p>History and Statistics from the <a href="https://www.lrn.usace.army.mil/Locations/Dams/Wolf-Creek-Dam/">U.S. Army Corps of Engineers</a></p>
 </div>
 
 </body>
