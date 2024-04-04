@@ -48,24 +48,18 @@ body {
     font-family: 'Gill Sans', sans-serif;
 }
 
-.left-image, .right-image {
-    flex: 1; /* This ensures that the image container takes up half of the content section */
-    display: flex;
-    justify-content: center; /* Center the image within the container */
-    border-radius: 5px;
-}
-
 .content-section img {
-    max-width: 100%; /* Ensures the image is responsive and doesn't overflow its container */
+    max-width: 100%; 
     height: auto;
-    border-radius: 5px; /* If you want rounded corners for your images */
+	object-fit: contain;
+    border-radius: 5px; 
 }
 
 .text-content {
-    flex: 1; /* This allocates equal space to the text content next to images */
+    flex: 1; 
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centers the text content vertically */
+    justify-content: center; 
 }
 
 .text-content h2 {
@@ -76,7 +70,7 @@ body {
 .big-image img {
     width: 90%;
     display: block;
-    margin: auto; /* Centers the image horizontally */
+    margin: auto;
     padding: 0px;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
     border-radius: 5px;
@@ -122,7 +116,7 @@ body {
 <div class="content-section">
     <img src="IMG_6599.jpg" alt="Description of Image" style="box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);">
 	    <div class="text-content">
-	        <h2>Section Title</h2>
+	        <h2>Wolf Creek Dam Statistics</h2>
 	        <p>Wolf Creek Dam is a dam on the Cumberland River of earth filling and concrete. It was created to control flooding, generate hydroelectricity, and create Lake Cumberland, the 7th largest reservoir in the United States.</p>
 	
 	        <p>Wolf Creek Dam began construction in 1941 as a flood control dam after the passing of the Flood Control Act (1938). During its construction, the Rivers and Harbor Act (1946) added plans for hydroelectric capabilities. Construction of the dam itself was completed in 1950, hydroelectric units were added during 1951-1952. The dam is operated and maintained by the U.S. Army Corps of Engineers. </p>
@@ -141,7 +135,7 @@ body {
 
 <div class="content-section">
 	    <div class="text-content">
-	        <h2>Another Title</h2>
+	        <h2>Wolf Creek Fish Hatchery and Kendall Recreation Area</h2>
 	        <p>The Wolf Creek Fish Hatchery was established in 1975 in order to populate brown, brook, cutthroat, and rainbow trout in the part of Cumberland River downstream of the dam. The trout are released into a creek that leads from the hatchery to the river. The creek, formally a steep and erosive creek, was restored with trout in mind, including wetlands, a gentler slope, clear water, and rock formations like riffles and step pool at the mouth of the creek. The hatchery is run by the U.S. Fish and Wildlife Service.</p>
 	
 	        <p>The hatchery is a part of the larger Kendall Recreation Area, run by the USACE. It provides an area for various activities including hiking, fishing, camping, kayaking, and wildlife observation. The area is quite riparian, with various accumulations of water not in Hatchery Creek. This is likely due to both rain runoff and controlled seepage from the earth fill section of the dam. When visited in January 2023, a part of the gravel road had been eroded due to a mudslide. The road was repaired on an April 2024 visit. Due to the high amount of water, a large part of the area is a restricted marshland.</p>
