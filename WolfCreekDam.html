@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wolf Creek Dam Project</title>
-    <style>
     
-body 
-{
+<style>  
+body {
     font-family: 'Gill Sans', sans-serif;
     background-color: rgb(228, 222, 222);
     color: rgb(33, 33, 33);
@@ -15,11 +14,10 @@ body
     margin-left: 10%;
 }
 
-.header-image 
-{
+.header-image {
     background-image: url("WCDBanner.png");
-    background-size:     cover;                      
-    background-repeat:   no-repeat;
+    background-size: cover;                      
+    background-repeat: no-repeat;
     background-position: center center; 
     border-radius: 5px;
     color: #d2d0d0;
@@ -29,22 +27,19 @@ body
     padding: 10px;
 }
 
-.header-image h1 
-{
+.header-image h1 {
     font-size: 2.5em;
     text-shadow: 2px 2px 4px #000000;
     font-family: 'Gill Sans', sans-serif;
 }
 
-.subtitle 
-{
+.subtitle {
     font-size: 1.2em;
     text-shadow: 2px 2px 4px #000000;
     font-family: 'Gill Sans', sans-serif;
 }
 	    
-.content-section 
-{
+.content-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,44 +48,41 @@ body
     font-family: 'Gill Sans', sans-serif;
 }
 
-.left-image 
-{
-    flex-direction: row;
+.left-image, .right-image {
+    flex: 1; /* This ensures that the image container takes up half of the content section */
+    display: flex;
+    justify-content: center; /* Center the image within the container */
     border-radius: 5px;
-    font-family: 'Gill Sans', sans-serif;
 }
 
-.right-image 
-{
-    flex-direction: row-reverse;
-    border-radius: 5px;
-    font-family: 'Gill Sans', sans-serif;
-}
-
-.content-section img 
-{
-    width: 50%;
+.content-section img {
+    max-width: 100%; /* Ensures the image is responsive and doesn't overflow its container */
     height: auto;
+    border-radius: 5px; /* If you want rounded corners for your images */
 }
 
-.text-content h2 
-{
+.text-content {
+    flex: 1; /* This allocates equal space to the text content next to images */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the text content vertically */
+}
+
+.text-content h2 {
     color: rgb(33, 33, 33);
     font-family: 'Gill Sans', sans-serif;
 }
 
-.big-image img 
-{
+.big-image img {
     width: 90%;
-    display:block;
-    align-items:center;
+    display: block;
+    margin: auto; /* Centers the image horizontally */
     padding: 0px;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
     border-radius: 5px;
 }
 
-.footer 
-{
+.footer {
     background-color: #282829;
     color: #d2d0d0;
     font-family: 'Gill Sans', sans-serif;
